@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заказ пиццы</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="viewing">
+                <h1>Область просмотра заказа:</h1>
+                <div>
+                    <ul  id="userIngredients">
+                    </ul>
+                </div>
+                <div class="price">
+                    <p>Цена:</p>
+                    <div id="price"> 0 </div>
+                    <p>руб</p>
+                </div>
+            </div>
+            <div class="order" id="images">
+                <img id="img" src="0.png" alt="" srcset="">
+                <img id="img1" src="1.png" alt="" srcset="">
+                <img id="img2" src="2.png" alt="" srcset="">
+                <img id="img3" src="3.png" alt="" srcset="">
+                <img id="img4" src="4.png" alt="" srcset="">
+                <div>
+                    <button id="order">
+                        <a href="#">ЗАКАЗАТЬ</a>
+                    </button> 
+                </div>
+            </div>
+        </div>        
+        <div class="ingredients">
+            <div class="composition">
+                <h2>Основа</h2>
+                <ul id="osnova">
+                    <li>
+                        <button  class="osnova" id="osnova1" data-price="3">Основа 1 (томатный соус)</button>
+                    </li>
+                    <li>
+                        <button  class="osnova" id="osnova2" data-price="2">Основа 2 (сырный соус)</button>
+                    </li>
+                    <li>
+                        <button  class="osnova" id="osnova3" data-price="2.5"> Основа 3 (гриль соус)</button>
+                    </li>
+                    <li>
+                        <button  class="osnova" id="osnova4" data-price="4">Основа 4 (ранч соус)</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="composition">
+                <h2>Ингредиент1</h2>
+                <ul>
+                    <li>
+                        <button  class="ingredient1"  id="ingredient1" data-price="3.5"> салями </button>
+                    </li>
+                    <li>
+                        <button  class="ingredient1"  id="ingredient2" data-price="2.5"> грибы </button>
+                    </li>
+                    <li>
+                        <button  class="ingredient1"  id="ingredient3" data-price="2"> курица </button>
+                    </li>
+                    <li>
+                        <button  class="ingredient1"  id="ingredient4" data-price="2.5"> бекон </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="composition">
+                <h2>Ингредиент2</h2>
+                <ul>
+                    <li>
+                        <button  class="ingredient2"  id="ingredient5" data-price="1.5"> сыр </button>
+                    </li>
+                    <li>
+                        <button  class="ingredient2"  id="ingredient6" data-price="1"> лук </button>
+                    </li>
+                    <li>
+                        <button  class="ingredient2"  id="ingredient7" data-price="1"> капуста </button>
+                    </li>
+                    <li>
+                        <button  class="ingredient2"  id="ingredient8" data-price="1.5"> огурец </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="composition">
+                <h2>Соус</h2>
+                <ul>
+                    <li>
+                        <button  class="sauce"  id="sauce1" data-price="0.5"> майонез </button>
+                    </li>
+                    <li>
+                        <button  class="sauce"  id="sauce2" data-price="0.5"> кетчуп </button>
+                    </li>
+                    <li>
+                        <button  class="sauce"  id="sauce3" data-price="0.5"> горчица </button>
+                    </li>
+                    <li>
+                        <button  class="sauce"  id="sauce4" data-price="0.5"> сливочно-чесночный </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

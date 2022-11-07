@@ -1,0 +1,87 @@
+*, *::after, *::before{
+    padding: 0;margin: 0;border: 0;box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container{
+    margin-top: 40px;
+    display: flex;
+}
+
+.viewing{
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    background: #FBD869;
+    padding: 30px;
+    
+}
+
+.price{
+    top: 350px;
+    position: absolute;
+    font-size: 30px;
+    display: flex;
+}
+#price{
+    padding: 0 10px 0 10px;
+}
+.order{
+    min-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    background: #F4E7BB;
+    text-align: center;
+}
+#order{
+    margin: 50px auto;
+    background: #FBD869;
+    padding: 10px 30px 10px 30px;
+    top: 250px;
+}
+#images{
+    padding-top: 30px;
+}
+#img1 {
+    position: absolute;
+    margin-top: 65px;
+    transform: translate(220%, -270%);
+    display: none;
+}
+#img2 {
+    position: absolute;
+    margin-top: 65px;
+    transform: translate(315%, -270%);
+    display: none;
+}
+#img3 {
+    position: absolute;
+    margin-top: 63px;
+    transform: translate(220%, -170%);
+    display: none;
+}
+#img4 {
+    position: absolute;
+    margin-top: 63px;
+    transform: translate(311%, -169%);
+    display: none;
+}
+.ingredients{
+    display: flex;
+    justify-content: center;
+    background:  #FFEEB0;
+    
+}
+li{
+    list-style: none;
+}
+.composition{
+    padding: 20px 40px;
+}
+.ingredient, .osnova, .ingredient1, .ingredient2, .sauce{
+    background:  #FFEEB0;
+}
